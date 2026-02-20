@@ -1,0 +1,39 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django local database
+db.sqlite3
+db.sqlite3-journal
+
+# Virtual environments
+env/
+venv/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Environment variables (if you use them later)
+.env
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
